@@ -1,7 +1,8 @@
 package AddressBook;
 import java.util.Scanner;
+
 public class ScannerUtil {
-	private final static Scanner input = new Scanner(System.in);
+    private final static Scanner input = new Scanner(System.in);
 
     public static String getString(String text) {
         System.out.print(text);
@@ -17,4 +18,5 @@ public class ScannerUtil {
         System.out.print(text);
         return input.nextLong();
     }
+
 }
